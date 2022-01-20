@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'salut les gens';
 });
 
 Route::get('/upload',function(){
